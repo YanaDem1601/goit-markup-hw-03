@@ -126,6 +126,20 @@ img {
 .button:focus {
   background: #404bbf;
 }
+.container-advantages {
+  display: flex;
+  justify-content: center;
+  margin: 120px 156px;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.advantages-text {
+  display: flex;
+  max-width: 264px;
+  padding-top: 8px;
+}
 .team,
 .portfolio,
 .advantages {
