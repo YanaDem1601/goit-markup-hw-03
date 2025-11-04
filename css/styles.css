@@ -237,3 +237,24 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+.portfolio {
+  display: flex;
+  padding-top: 120px;
+  justify-content: center;
+}
+.portfolio-list {
+  display: flex;
+  max-width: 1128px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  gap: 48px 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+}
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+}
