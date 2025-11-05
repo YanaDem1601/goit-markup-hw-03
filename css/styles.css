@@ -298,6 +298,7 @@ img {
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
 }
 .footer-text {
   font-weight: 400;
